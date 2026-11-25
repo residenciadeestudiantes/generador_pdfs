@@ -1,0 +1,11 @@
+# Solo se versiona lo necesario para que funcionen los scripts:
+# herramientas/ (scripts, modelos OCR y ocr_forzar.txt), assets/ (logo de la marca de agua) y CLAUDE.md.
+# Todo lo demás (cajas, PDFs, tablas CSV, informes, dataset, pruebas) queda fuera.
+/*
+!/.gitignore
+!/CLAUDE.md
+!/herramientas/
+!/assets/
+
+__pycache__/
+*.pyc
